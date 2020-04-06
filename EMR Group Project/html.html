@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:ital@1&display=swap" rel="stylesheet">
+  <link href="./html.css" rel="stylesheet" type="text/css">
+  <title>Electornic Medical Record</title>
+</head>
+<body>
+  <header>
+    <!-- Navigation Bar-->
+    <div class="container ">
+      <ul class="nav">
+      <li><a href="./allergy.html" >  Allergies</a></li>
+      <li><a href="./immunization.html" >Immunization Status </a></li>
+      <li><a href="./radiologyimages.html" >Radiology Images</a></li>
+      <li><a href="./billing.html" >Billing Information</a></li>
+      </ul>
+    </div>
+    <!-- buttons-->
+
+       <button type="button" class="buttons" onclick="location.href = './form.html'">Login</button>
+       <input type="text" id="buttoninfo"placeholder="Search.." class="search">
+       <button type="button" id="enter">Enter</button>
+    
+      <!-- Contact Information-->
+      <div class="contactinfo">
+        <ul class="key-value-pairs">
+          <li class="key">First Name</li>  
+          <li class="value" >Tarun</li> 
+
+          <li class="key">Last Name</li>  
+          <li class="value" >Sharma</li> 
+
+          <li class="key">Gender</li>  
+          <li class="value" >Male</li> 
+
+          <li class="key">Email</li>  
+          <li class="value">osgood@whatsapp.com</li>
+
+          <li class="key">DOB</li>  
+          <li class="value">08/14/1994</li>  
+
+          <li class="key">Phone #</li>  
+          <li class="value">905-443-2222</li>  
+
+          <li class="key">MPN</li>  
+          <li class="value">1246864565532</li>  
+
+          <li class="key">Age</li>  
+          <li class="value">44</li>  
+
+          <li class="key">Address</li>  
+          <li class="value">95 Crayola Cres</li>  
+
+          <li class="key">Id</li>  
+          <li class="value">55-0-422-66</li>  
+        </ul>
+      </div>
+      <!--Avatar Picture of Patient-->
+      <img class="avatar" src="images/img_avatar_0.png" alt="avatar"/>
+      <!-- Test area about Patient-->
+      <textarea >Additional Patient Info</textarea>
+  </header>
+  <scirpt src="html.js"></scirpt>
+</body>
+</html>
